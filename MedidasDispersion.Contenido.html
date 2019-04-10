@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-text mx-3">Estadistica</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <!--<li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>-->
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Paginas y Contenidos
+      </div>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="true" aria-controls="collapseTwo2">
+          <span>Conceptos Basicos</span>
+        </a>
+        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="ConceptosBasicos.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="ConceptosBasicos.Examen.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="true" aria-controls="collapseTwo3">
+          <span> Reseña Historica</span>
+        </a>
+        <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="RESENAHISTORICA.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="RESENAHISTORICA.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="true" aria-controls="collapseTwo4">
+          <span> Estadistica</span>
+        </a>
+        <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="Estadistica.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="Estadistica.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo5" aria-expanded="true" aria-controls="collapseTwo5">
+          <span> Graficos Estadisticos</span>
+        </a>
+        <div id="collapseTwo5" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="EstadisticaGraficos.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="EstadisticaGraficos.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <span>Tabla Distribucion</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="buttons.html">Contenido</a>
+            <a class="collapse-item" href="buttons.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+
+     
+
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <div id="content">
+
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!--<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>-->
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+
+
+          </ul>
+
+        </nav>
+
+        <div class="container-fluid">
+
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Inicio</h1>
+            <button id="btnCopyContent" class="btn btn-info">Copiar contenido</button>
+            <input id="txtHTML" style="
+            position: absolute;
+            bottom: 0;
+        "  type="text"/>
+            <!--<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 w-100">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                </div>
+                <div class="card-body" id="contentToCopy">
+                    <h1 id="nodeTitle"><strong>Medidas de Dispersi&oacute;n</strong></h1>
+<div id="id38" class="FreeTextIdevice">
+<div class="iDevice emphasis0">
+<div id="ta38_1" class="block">&nbsp;</div>
+</div>
+</div>
+<div id="id41" class="FreeTextIdevice">
+<div class="iDevice emphasis0">
+<div id="ta41_1" class="block">
+<p><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/images.jpg" alt="" width="335" height="150" /></p>
+<h1 id="nodeTitle"><span style="font-size: 15pt;"><strong>Medidas de Posicion</strong></span></h1>
+<p><iframe src="//www.youtube.com/embed/ZZNm66FSK0U" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<h1 id="nodeTitle"><span style="font-size: 15pt;"><strong>Medidas de Dispers&oacute;n</strong></span></h1>
+<p>&nbsp;</p>
+<p><span style="font-size: 15pt;"><span style="font-size: 14pt;">La Dispersi&oacute;n hace referencia a la forma en que se dispersan o alejan las puntuaciones de una distribuci&oacute;n o lista de puntajes </span><strong><br /></strong></span></p>
+<p><span style="font-size: 15pt;"><span style="font-size: 14pt;"><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/Imagen16.png" alt="d" width="1196" height="482" /></span></span></p>
+<p>&nbsp;</p>
+<ul>
+<li><span style="font-size: 15pt;"><span style="font-size: 14pt;">RANGO (S&iacute;mbolo: R)<br /></span></span></li>
+<li><span style="font-size: 15pt;"><span style="font-size: 14pt;">DESVIACI&Oacute;N MEDIA (S&iacute;mbolo Dx)<br /></span></span></li>
+<li><span style="font-size: 15pt;"><span style="font-size: 14pt;">DESVIACION ESTANDAR O T&Iacute;PICA (S&iacute;mbolo &sigma; &oacute; S)<br /></span></span></li>
+<li><span style="font-size: 15pt;"><span style="font-size: 14pt;">VARIANZA (&sigma;2 &oacute; S2)<br /></span></span></li>
+</ul>
+<p><strong><span style="font-size: 20pt;">RANGO</span></strong></p>
+<p><span style="font-size: 14pt;">El Rango corresponde a la distancia entre el puntaje mayor (llamado valor m&aacute;ximo) y el puntaje menor (llamado valor m&iacute;nimo).<strong><br /></strong></span></p>
+<p><span style="font-size: 14pt;"> Rango = XMax &ndash; XMin</span></p>
+<p><span style="font-size: 14pt;"><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/Ejemplo.JPG" alt="" /></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size: 14pt;"><strong><span style="font-size: 20pt;">DESVIACI&Oacute;N MEDIA</span></strong><br /></span></p>
+<p><span style="font-size: 14pt;">La desviaci&oacute;n media es la media aritm&eacute;tica de los valores absolutos de las desviaciones respecto a la media</span></p>
+<p><span style="font-size: 14pt;">La desviaci&oacute;n media se representa por Dx</span></p>
+<p><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/Imagen17.png" alt="" /></p>
+<p><strong><span style="font-size: 20pt;">Desviaci&oacute;n Est&aacute;ndar o T&iacute;pica:</span></strong></p>
+<p><span style="font-size: 14pt;">Indica c&oacute;mo se dispersan los datos con respecto a la media</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 20pt;">Varianza</span></strong></p>
+<p><span style="font-size: 14pt;">La media aritm&eacute;tica de las desviaciones cuadradas de la media.</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 20pt;">Desviaci&oacute;n Est&aacute;ndar</span></strong></p>
+<p><span style="font-size: 14pt;">Corresponde a la Ra&iacute;z Cuadrada de la Varianza</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 20pt;">Varianza</span></strong></p>
+<p><span style="font-size: 14pt;">Corresponde a la Desviaci&oacute;n Est&aacute;ndar al cuadrado</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-size: 20pt;">EJEMPLO</span></strong></p>
+<p><span style="font-size: 20pt;"><span style="font-size: 14pt;">Calcular varianza y desviaci&oacute;n est&aacute;ndar para los siguientes puntajes</span><br /></span><span style="font-size: 20pt;"><span style="font-size: 14pt;">10 &ndash; 12 &ndash; 15 &ndash; 18 - 20</span></span><strong><span style="font-size: 20pt;"><br /></span></strong></p>
+<p><span style="font-size: 20pt;"><span style="font-size: 14pt;"><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/Imagen18.png" alt="" /></span></span></p>
+<p><strong><span style="font-size: 20pt;">EJEMPLO</span></strong></p>
+<p><strong><span style="font-size: 20pt;"><img src="data:image/png;base64,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" /></span></strong></p>
+<p><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/Imagen19.png" alt="" /></p>
+<p><strong><span style="font-size: 20pt;">VARIANZA Y DESVIACI&Oacute;N EST&Aacute;NDAR EN MUESTRAS</span></strong></p>
+<p><strong><span style="font-size: 20pt;"><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/Imagen20.png" alt="" /></span></strong></p>
+</div>
+</div>
+</div>
+                </div>
+
+            </div>
+
+          <!--</div>-->
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; RReynoso 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+
+  <!-- Page level custom scripts -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

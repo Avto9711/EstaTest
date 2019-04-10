@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-text mx-3">Estadistica</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <!--<li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>-->
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Paginas y Contenidos
+      </div>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="true" aria-controls="collapseTwo2">
+          <span>Conceptos Basicos</span>
+        </a>
+        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="ConceptosBasicos.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="ConceptosBasicos.Examen.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="true" aria-controls="collapseTwo3">
+          <span> Reseña Historica</span>
+        </a>
+        <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="RESENAHISTORICA.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="RESENAHISTORICA.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="true" aria-controls="collapseTwo4">
+          <span> Estadistica</span>
+        </a>
+        <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="Estadistica.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="Estadistica.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo5" aria-expanded="true" aria-controls="collapseTwo5">
+          <span> Graficos Estadisticos</span>
+        </a>
+        <div id="collapseTwo5" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="EstadisticaGraficos.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="EstadisticaGraficos.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <span>Tabla Distribucion</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="buttons.html">Contenido</a>
+            <a class="collapse-item" href="buttons.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+
+     
+
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <div id="content">
+
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!--<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>-->
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+
+
+          </ul>
+
+        </nav>
+
+        <div class="container-fluid">
+
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Inicio</h1>
+            <button id="btnCopyContent" class="btn btn-info">Copiar contenido</button>
+            <input id="txtHTML" style="
+            position: absolute;
+            bottom: 0;
+        "  type="text"/>
+            <!--<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 w-100">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                </div>
+                <div class="card-body" id="contentToCopy">
+              
+                  <div id="nodeDecoration">
+                    <h1 id="nodeTitle">Medidas de centralizaci&oacute;n</h1>
+                    </div>
+                    <div id="id38" class="FreeTextIdevice">
+                    <div class="iDevice emphasis0">
+                    <div id="ta38_1" class="block">
+                    <p><strong><span id="Mediana" class="mw-headline">Media</span></strong></p>
+                    <p>La&nbsp;<strong>media aritm&eacute;tica</strong>&nbsp;es, probablemente, uno de los par&aacute;metros estad&iacute;sticos m&aacute;s extendidos. Se le llama tambi&eacute;n&nbsp;<strong>promedio</strong>&nbsp;o, simplemente,&nbsp;<strong>media</strong>.</p>
+                    <p>&nbsp;</p>
+                    <h3><span id="Definici.C3.B3n_formal" class="mw-headline">Definici&oacute;n formal</span></h3>
+                    <p>Dado un conjunto num&eacute;rico de datos,&nbsp;<em>x</em><sub>1</sub>,&nbsp;<em>x</em><sub>2</sub>, ...,&nbsp;<em>x</em><sub>n</sub>, se define su media aritm&eacute;tica como</p>
+                    <p><img class="tex" src="http://upload.wikimedia.org/math/b/8/d/b8d0f957b17c91630b77a7aaaa2d2151.png" alt=" \overline{x} = \frac{x_1 + x_2 + ... + x_n}{n} = \frac{\sum_{i=1}^n x_i}{n}
+                    " /></p>
+                    <p>Esta definici&oacute;n var&iacute;a, aunque no sustancialmente, cuando se trata de&nbsp;<a title="Variable estad&iacute;stica" href="http://es.wikipedia.org/wiki/Variable_estad%C3%ADstica">variables continuas</a>, esto es, tambi&eacute;n puede calcularse para variables agrupadas en&nbsp;<a title="Intervalo (matem&aacute;tica)" href="http://es.wikipedia.org/wiki/Intervalo_%28matem%C3%A1tica%29">intervalos</a></p>
+                    </div>
+                    </div>
+                    </div>
+                    <div id="id39" class="FreeTextIdevice">
+                    <div class="iDevice emphasis0">
+                    <div id="ta39_1" class="block">
+                    <h2><span id="Moda" class="mw-headline">Moda</span></h2>
+                    <div class="noprint AP rellink">&nbsp;</div>
+                    <p>La moda es el dato m&aacute;s repetido, el valor de la variable con mayor&nbsp;<a title="Frecuencia estad&iacute;stica" href="http://es.wikipedia.org/wiki/Frecuencia_estad%C3%ADstica">frecuencia absoluta</a>. En cierto sentido la definici&oacute;n matem&aacute;tica corresponde con la locuci&oacute;n "<a title="Moda" href="http://es.wikipedia.org/wiki/Moda">estar de moda</a>", esto es, ser lo que m&aacute;s se lleva.</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div id="id40" class="FreeTextIdevice">
+                    <div class="iDevice emphasis0">
+                    <div id="ta40_1" class="block">
+                    <h2><span id="Mediana" class="mw-headline">Mediana</span></h2>
+                    <p>La mediana es un valor de la variable que deja por debajo de s&iacute; a la mitad de los datos, una vez que &eacute;stos est&aacute;n ordenados de menor a mayor. Por ejemplo, la mediana del n&uacute;mero de hijos de un conjunto de trece familias, cuyos respectivos hijos son: 3, 4, 2, 3, 2, 1, 1, 2, 1, 1, 2, 1 y 1, es 2, puesto que, una vez ordenados los datos: 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, el que ocupa la posici&oacute;n central es 2:</p>
+                    <p><img class="tex" src="http://upload.wikimedia.org/math/9/8/5/9859dd93e5111b715c9d263497946218.png" alt="\rm 
+                          \underbrace{1,\ 1,\ 1,\ 1,\ 1,\ 1, }_{Mitad \; inferior} \;
+                          \underbrace{\color{Red} 2, }_{Mediana \;} \;
+                           \underbrace{2,\ 2,\ 2,\ 3,\ 3,\ 4}_{Mitad \; superior}
+                    " /></p>
+                    <p>En caso de un n&uacute;mero par de datos, la mediana no corresponder&iacute;a a ning&uacute;n valor de la variable, por lo que se conviene en tomar como mediana el valor intermedio entre los dos valores centrales. Por ejemplo, en el caso de doce datos como los siguientes:</p>
+                    <p><img class="tex" src="http://upload.wikimedia.org/math/e/7/d/e7d5663edad06b1e9135ed757cb25252.png" alt="\rm 
+                          \underbrace{1,\ 1,\ 1,\ 1,\ 1, }_{Valores \; inferiores} \;
+                          \underbrace{\color{Red} 1,\ 2, }_{Valores \; intermedios} \;
+                          \underbrace{2,\ 2,\ 3,\ 3,\ 4}_{Valores \; superiores}
+                    " /></p>
+                    <p>Se toma como mediana&nbsp;<img class="tex" src="http://upload.wikimedia.org/math/d/e/b/deb1c6a91af563f2a7fde504106cefff.png" alt=" 1,5 = \frac{{\color{Red}1}+{\color{Red}2}}{2}" /></p>
+                    <p>&nbsp;</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div id="id41" class="FreeTextIdevice">
+                    <div class="iDevice emphasis0">
+                    <div id="ta41_1" class="block">
+                    <p>EJEMPLO:</p>
+                    <p>El n&uacute;mero de hijos de un conjunto de trece familias, cuyos respectivos hijos son:</p>
+                    <p>3, 4, 2, 3, 2, 1, 1, 2, 1, 1, 2, 1 y 1,</p>
+                    <p>La media ser&iacute;a:</p>
+                    <p>= (3+3+2+3+2+1+1+2+1+1+2+1+1)/13 =</p>
+                    <p>La moda ser&iacute;a 1 puesto que es el dato que m&aacute;s se repite</p>
+                    <p>La mediana ser&aacute;:2, puesto que, una vez ordenados los datos: 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 4, el que ocupa la posici&oacute;n central es 2:</p>
+                    <p><img class="tex" src="http://upload.wikimedia.org/math/9/8/5/9859dd93e5111b715c9d263497946218.png" alt="\rm 
+                          \underbrace{1,\ 1,\ 1,\ 1,\ 1,\ 1, }_{Mitad \; inferior} \;
+                          \underbrace{\color{Red} 2, }_{Mediana \;} \;
+                           \underbrace{2,\ 2,\ 2,\ 3,\ 3,\ 4}_{Mitad \; superior}
+                    " /></p>
+                    <p>En caso de un n&uacute;mero par de datos, la mediana no corresponder&iacute;a a ning&uacute;n valor de la variable, por lo que se conviene en tomar como mediana el valor intermedio entre los dos valores centrales. Por ejemplo, en el caso de doce datos como los siguientes:</p>
+                    <p><img class="tex" src="http://upload.wikimedia.org/math/e/7/d/e7d5663edad06b1e9135ed757cb25252.png" alt="\rm 
+                          \underbrace{1,\ 1,\ 1,\ 1,\ 1, }_{Valores \; inferiores} \;
+                          \underbrace{\color{Red} 1,\ 2, }_{Valores \; intermedios} \;
+                          \underbrace{2,\ 2,\ 3,\ 3,\ 4}_{Valores \; superiores}
+                    " /></p>
+                    <p>Se toma como mediana&nbsp;<img class="tex" src="http://upload.wikimedia.org/math/d/e/b/deb1c6a91af563f2a7fde504106cefff.png" alt=" 1,5 = \frac{{\color{Red}1}+{\color{Red}2}}{2}" /></p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/m posicion.png" alt="Con" width="469" height="181" /></p>
+                    <h1 id="nodeTitle">Recursos</h1>
+                    <p>&nbsp;</p>
+                    <p><iframe src="//www.youtube.com/embed/JLP5IjygB3M" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+                    </div>
+                    </div>
+                    </div>  
+                </div>
+            </div>
+
+          <!--</div>-->
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; RReynoso 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+
+  <!-- Page level custom scripts -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
