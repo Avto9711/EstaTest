@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Dashboard</title>
+  <title>VMeta Estadistica</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -24,7 +24,6 @@
 
   <!-- Page Wrapper -->
   <div id="wrapper">
-
 
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -52,6 +51,8 @@
         Paginas y Contenidos
       </div>
 
+
+    
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="true" aria-controls="collapseTwo2">
@@ -112,12 +113,66 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Opciones</h6>
-            <a class="collapse-item" href="buttons.html">Contenido</a>
-            <a class="collapse-item" href="buttons.html">Examen</a>
+            <a class="collapse-item" href="TablaDistribucion.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="TablaDistribucion.Examen.html">Examen</a>
             <!--<a class="collapse-item" href="cards.html">Cards</a>-->
           </div>
         </div>
       </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo82" aria-expanded="true" aria-controls="collapseTwo82">
+          <span> Medidas de Centralización</span>
+        </a>
+        <div id="collapseTwo82" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="MedidaCentralizacion.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="MedidaCentralizacion.Examen.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo828" aria-expanded="true" aria-controls="collapseTwo828">
+            <span> Medidas de Dispersión</span>
+          </a>
+          <div id="collapseTwo828" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Opciones</h6>
+              <a class="collapse-item" href="MedidasDispersion.Contenido.html">Contenido</a>
+              <a class="collapse-item" href="MedidasDispersion.Examen.html">Examen</a>
+              <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo8286" aria-expanded="true" aria-controls="collapseTwo8286">
+              <span> Teoria Probalidad</span>
+            </a>
+            <div id="collapseTwo8286" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+              <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">Opciones</h6>
+                <a class="collapse-item" href="TeoriaProbabilidad.Contenido.html">Contenido</a>
+                <a class="collapse-item" href="TeoriaProbabilidad.Examen.html">Examen</a>
+                <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo82861" aria-expanded="true" aria-controls="collapseTwo82861">
+                <span> Teoria Probalidad Elemental</span>
+              </a>
+              <div id="collapseTwo82861" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                  <h6 class="collapse-header">Opciones</h6>
+                  <a class="collapse-item" href="TeoriaProbabilidadElemental.Contenido.html">Contenido</a>
+                  <a class="collapse-item" href="TeoriaProbabilidadElemental.Examen.html">Examen</a>
+                  <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+                </div>
+              </div>
+            </li>
+     
+     
 
      
 
@@ -128,6 +183,7 @@
       </div>
 
     </ul>
+
 
     <div id="content-wrapper" class="d-flex flex-column">
 
@@ -182,53 +238,115 @@
 
         <div class="container-fluid">
 
+          
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Inicio</h1>
-            <button id="btnCopyContent" class="btn btn-info">Copiar contenido</button>
-            <input id="txtHTML" style="
-            position: absolute;
-            bottom: 0;
-        "  type="text"/>
-            <!--<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
-          </div>
-
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                </div>
-                <div class="card-body" id="contentToCopy">
-                  <p>Estad&iacute;stica.</p>
-                  <p>Un estudio estad&iacute;stico consta de las siguientes fases:</p>
-                  <p>Recogida de datos.<br />Organizaci&oacute;n y clasificaci&oacute;n<br />Presentaci&oacute;n de datos.<br />An&aacute;lisis de datos.<br />Obtenci&oacute;n de conclusiones.<br />Conceptos de Estad&iacute;stica</p>
-                  <p>Poblaci&oacute;n. Una poblaci&oacute;n es el conjunto de todos los elementos a los que se somete a un estudio estad&iacute;stico.</p>
-                  <p>Individuo</p>
-                  <p>Un individuo o unidad estad&iacute;stica es cada uno de los elementos que componen la poblaci&oacute;n.</p>
-                  <p>Muestra</p>
-                  <p>Una muestra es un conjunto representativo de la poblaci&oacute;n de referencia, el n&uacute;mero de individuos de una muestra es menor que el de la poblaci&oacute;n.</p>
-                  <p>Muestreo</p>
-                  <p>El muestreo es la reuni&oacute;n de datos que se desea estudiar, obtenidos de una proporci&oacute;n reducida y representativa de la poblaci&oacute;n.</p>
-                  <p>Dato<br />Un dato es cada uno de los valores que se ha obtenido al realizar un estudio estad&iacute;stico. Si lanzamos una moneda al aire 5 veces obtenemos 5 datos: cara, cara, cruz, cara, cruz.</p>
-                  <p>Variable estad&iacute;stica<br />Definici&oacute;n. Una variable estad&iacute;stica es cada una de las caracter&iacute;sticas o cualidades que poseen los individuos de una poblaci&oacute;n.</p>
-                  <p>Tipos de variable estad&iacute;sticas<br />* Variable cualitativa.<br />Las variables cualitativas se refieren a caracter&iacute;sticas o cualidades que no pueden ser medidas <br />con n&uacute;meros. Podemos distinguir dos tipos:<br />- Variable cualitativa nominal<br />Una variable cualitativa nominal presenta modalidades no num&eacute;ricas que no admiten un criterio de orden. Por ejemplo: El estado civil, con las siguientes modalidades: soltero, casado, separado, divorciado y viudo.</p>
-                  <p>- Variable cualitativa ordinal o variable cuasicuantitativa<br />Una variable cualitativa ordinal presenta modalidades no n&uacute;mericas, en las que existe un orden. Por ejemplo:<br />La nota en un examen: no suficiente, aprobado, notable, sobresaliente.<br />Puesto conseguido en una prueba deportiva: 1&ordm;, 2&ordm;, 3&ordm;, ...<br />Medallas de una prueba deportiva: oro, plata, bronce.</p>
-                  <p>* Variable cuantitativa<br />Una variable cuantitativa es la que se expresa mediante un n&uacute;mero, por tanto se pueden realizar operaciones aritm&eacute;ticas con ella. Podemos distinguir dos tipos:</p>
-                  <p>- Variable discreta<br />Una variable discreta es aquella que toma valores aislados, es decir no admite valores intermedios entre dos valores espec&iacute;ficos. Por ejemplo:<br />El n&uacute;mero de hermanos de 5 amigos: 2, 1, 0, 1, 3.</p>
-                  <p>- Variable continua<br />Una variable continua es aquella que puede tomar valores comprendidos entre dos n&uacute;meros. <br />Por ejemplo: La altura de los 5 amigos: 1.73, 1.82, 1.77, 1.69, 1.75.</p>
-                  <p>En la pr&aacute;ctica medimos la altura con dos decimales, pero tambi&eacute;n se podr&iacute;a dar con tres decimales.</p>
-                  <p>Divisi&oacute;n de la Estad&iacute;stica <br />La Estad&iacute;stica para su mejor estudio se ha dividido en dos grandes ramas: la Estad&iacute;stica Descriptiva y la Inferencial.</p>
-                  <p>* Estad&iacute;stica Descriptiva: consiste sobre todo en la presentaci&oacute;n de datos en forma de tablas y gr&aacute;ficas. Esta comprende cualquier actividad relacionada con los datos y est&aacute; dise&ntilde;ada para resumir o describir los mismos sin factores pertinentes adicionales; esto es, sin intentar inferir nada que vaya m&aacute;s all&aacute; de los datos, como tales.</p>
-                  <p>* Estad&iacute;stica Inferencial: se deriva de muestras, de observaciones hechas s&oacute;lo acerca de una parte de un conjunto numeroso de elementos y esto implica que su an&aacute;lisis requiere de generalizaciones que van m&aacute;s all&aacute; de los datos. Como consecuencia, la caracter&iacute;stica m&aacute;s importante del reciente crecimiento de la estad&iacute;stica ha sido un cambio en el &eacute;nfasis <br />de los m&eacute;todos que describen a m&eacute;todos que sirven para hacer generalizaciones. La Estad&iacute;stica Inferencial investiga o analiza una poblaci&oacute;npartiendo de una muestra tomada.</p>
-                </div>
-              </div>
+              <button id="btnCopyContent" class="btn btn-info">Copiar contenido</button>
+              <input id="txtHTML" style="
+              position: absolute;
+              bottom: 0;
+          "  type="text"/>
             </div>
 
-          <!--</div>-->
+            
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="card shadow mb-4">
+              <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Medidas de Centralización - Examen</h6>
+              </div>
+              <div class="card-body">
+                <div class="col-sm-12">
+                    <b>Completa</b>
+                   <div class="row">
+                      <div class="col-sm-12">
+                          <br>
+                          <b>1. La ______ es el promedio de un conjunto de números.</b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-1" type="text" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>2. La ______ es el dato más repetido, el valor de la variable con mayor frecuencia absoluta.</b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-2" type="text" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>3. La ______ es un valor de la variable que deja por debajo de sí a la mitad de los datos, una vez que éstos están ordenados de menor a mayor. </b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-3" type="text" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>4. Los ______ son los tres valores que dividen un conjunto de datos ordenados en cuatro partes porcentualmente iguales</b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-4" type="text" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>5.Los ______ son los que dividen a la distribución en cinco partes.</b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-5" type="text" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>6. El número de hijos de un conjunto de trece familias, cuyos respectivos hijos son:
 
-        </div>
-        <!-- /.container-fluid -->
+                              3, 4, 2, 3, 2, 1, 1, 2, 1, 1, 2, 1 y 1,
+                              
+                              La media sería:</b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-6" type="number" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>7. Del ejercicio anterior la Moda es: </b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-7" type="number" />
+                          </div>
+                      </div>
+                      <div class="col-sm-12">
+                          <br>
+                          <b>8.  En datos agrupados, la formula de la Media, Moda y Promedio es la misma (SI O NO): </b>
+                          <br>
+                          <div style="padding-top: 10px">
+                              Respuesta: <input  class="form-control col-sm-3" id="fv-pregunta-8" type="text" />
+                          </div>
+                      </div>
+                   </div>
+           
+                   <br>
+                   <div class="row">
+                      <div class="col-sm-12 text-center">
+                         <button class="btn btn-danger" id="cleaner">Limpiar</button>
+                         <button class="btn btn-primary" id="verify">Verificar</button>
+                      </div>
+                   </div>
+                   <br>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+
 
       </div>
+      <!-- /.container-fluid -->
+
+    </div>
       <!-- End of Main Content -->
 
       <!-- Footer -->
@@ -281,10 +399,64 @@
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
 
-  <!-- Page level plugins -->
-
-  <!-- Page level custom scripts -->
   <script src="js/script.js"></script>
+
+  <script id="scriptVerificar">
+    var respuestasCorrectas = [];
+   respuestasCorrectas["fv-pregunta-1"] = "MEDIA";
+   respuestasCorrectas["fv-pregunta-2"] = "Moda";
+   respuestasCorrectas["fv-pregunta-3"] = "Mediana";
+   respuestasCorrectas["fv-pregunta-4"] = "Cuartiles";
+   respuestasCorrectas["fv-pregunta-5"] = "Quintiles";
+   respuestasCorrectas["fv-pregunta-6"] = "1";
+   respuestasCorrectas["fv-pregunta-7"] = "2";
+   respuestasCorrectas["fv-pregunta-8"] = "SI";
+
+   respuestasCorrectas.length = 8;
+   document.getElementById("cleaner").addEventListener('click', function (){
+    for (let i = 0; i < respuestasCorrectas.length; i++) {
+       let ids = "fv-pregunta-" + (i + 1 );
+       const respuesta = respuestasCorrectas[ids];
+       document.getElementById(ids).value = "";
+      }
+   });
+   document.getElementById("verify").addEventListener('click', function (){
+     var alertText = "\n Respuestas correctas: ";
+     var reCorrectas = [];
+     var reInCorrectas = [];
+     for (let i = 0; i < respuestasCorrectas.length; i++) {
+       let ids = "fv-pregunta-" + (i + 1 );
+       const respuesta = respuestasCorrectas[ids];
+       let val = document.getElementById(ids).value;
+
+       if(!val){
+          alert("Debe llenar todas las repuestas.");
+          return;
+       }
+
+       if(val.toLowerCase().trim() == respuesta.toLowerCase().trim() ){
+            reCorrectas.push(i + 1);
+       }else{
+            reInCorrectas.push(i + 1);
+       }
+     }
+ 
+     alertText += reCorrectas.join();
+     
+     if(reInCorrectas.length){
+
+      alertText += ".\n\n Respuestas incorrectas: ";
+      alertText += reInCorrectas.join() + ".";
+     }
+
+
+
+     alertText += "\n\n Resultado: " + reCorrectas.length + "/" + respuestasCorrectas.length + ".";
+
+     alert(alertText);
+   });
+
+  </script>
 
 </body>
 
