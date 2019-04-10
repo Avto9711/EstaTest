@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>SB Admin 2 - Dashboard</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-text mx-3">Estadistica</div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <!--<li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>-->
+
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Paginas y Contenidos
+      </div>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="true" aria-controls="collapseTwo2">
+          <span>Conceptos Basicos</span>
+        </a>
+        <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="ConceptosBasicos.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="ConceptosBasicos.Examen.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="true" aria-controls="collapseTwo3">
+          <span> Reseña Historica</span>
+        </a>
+        <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="RESENAHISTORICA.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="RESENAHISTORICA.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo4" aria-expanded="true" aria-controls="collapseTwo4">
+          <span> Estadistica</span>
+        </a>
+        <div id="collapseTwo4" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="Estadistica.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="Estadistica.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo5" aria-expanded="true" aria-controls="collapseTwo5">
+          <span> Graficos Estadisticos</span>
+        </a>
+        <div id="collapseTwo5" class="collapse" aria-labelledby="headingTwo4" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="EstadisticaGraficos.Contenido.html">Contenido</a>
+            <a class="collapse-item" href="EstadisticaGraficos.Examen.html">Examen</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          <span>Tabla Distribucion</span>
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Opciones</h6>
+            <a class="collapse-item" href="buttons.html">Contenido</a>
+            <a class="collapse-item" href="buttons.html">Examen</a>
+            <!--<a class="collapse-item" href="cards.html">Cards</a>-->
+          </div>
+        </div>
+      </li>
+
+     
+
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <div id="content">
+
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <!--<form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>-->
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+
+
+          </ul>
+
+        </nav>
+
+        <div class="container-fluid">
+
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Inicio</h1>
+            <button id="btnCopyContent" class="btn btn-info">Copiar contenido</button>
+            <input id="txtHTML" style="
+            position: absolute;
+            bottom: 0;
+        "  type="text"/>
+            <!--<a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>-->
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                </div>
+                <div class="card-body" id="contentToCopy">
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p><span style="font-size: 24.0pt;">Tabla de Distribuci&oacute;n de Frecuencias</span></p>
+                  <p><span style="font-size: 8.5pt;"> <span style="font-size: 24.0pt;"><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/T FRECUENCIA (1).png" alt="Tabla" width="436" height="263" /></span></span></p>
+                  <p><span style="font-size: 8.5pt;">Una tabla de&nbsp;distribuci&oacute;n de frecuencias&nbsp;es una tabla que nos permite organizar los datos de tal manera que nos sirvan para la toma de decisiones.</span></p>
+                  <p><strong>Procedimiento para su construcci&oacute;n:</strong></p>
+                  <p><span style="font-size: 8.5pt;">Para describir el procedimiento de construcci&oacute;n de la&nbsp;tabla de distribuci&oacute;n&nbsp;de frecuencias, tomemos el siguiente ejemplo.</span></p>
+                  <p><span style="font-size: 8.5pt;">Ejemplo:&nbsp;El conjunto de datos presentados en seguida, representan las edades de 30 profesores del TEC.</span></p>
+                  <p><span style="font-size: 8.5pt;">Construye la tabla de distribuci&oacute;n de frecuencias para ellos.</span></p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <ol>
+                  <li style="margin-left: .5in; text-indent: -.25in;"><strong><span style="font-size: 10.0pt;">C&aacute;lculo del&nbsp;rango</span></strong></li>
+                  </ol>
+                  <p style="margin-left: .5in;"><strong><span style="font-size: 8.5pt;">&nbsp;</span></strong></p>
+                  <p><span style="font-size: 10.0pt;">Datos del problema</span></p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Del conjunto de datos en bruto, se busca el de mayor magnitud (Xmax) y el de menor magnitud (Xmin). Con ellos se calcula el rango.</span></p>
+                  <p><strong><span style="font-size: 10.0pt;">Rango = V<sub>M</sub>&nbsp;-V<sub>m</sub>&nbsp;= 45 - 26 = 19</span></strong></p>
+                  <p><span style="font-size: 10.0pt;">&nbsp;</span></p>
+                  <ol start="2">
+                  <li><strong><span style="font-size: 10.0pt;"> Designaci&oacute;n del n&uacute;mero&nbsp;de clases</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">Datos del problema.</span></p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Una vez calculado el rango, se procede a designar el n&uacute;mero de clases, a trav&eacute;s de cualquiera de los dos m&eacute;todos siguientes:</span></p>
+                  <ol>
+                  <li><strong><u><span style="font-size: 10.0pt;">a) Primer m&eacute;todo.</span></u></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">en donde:</span></p>
+                  <p><span style="font-size: 10.0pt;">K:&nbsp;es el n&uacute;mero de clases</span></p>
+                  <p><span style="font-size: 10.0pt;">n:&nbsp;es el n&uacute;mero de datos por agrupar.</span></p>
+                  <ol>
+                  <li><span style="font-size: 10.0pt;">b)&nbsp;Segundo&nbsp;m&eacute;todo.</span></li>
+                  </ol>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="color: windowtext;">N&nbsp; </span></strong></p>
+                  </td>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="color: windowtext;">k</span></strong></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">n &lt; 50</span></p>
+                  </td>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5 a 7</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">50 &lt;= n &lt; 100</span></p>
+                  </td>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6 a 10</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">100 &lt;= n &lt; 250</span></p>
+                  </td>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7 a 12</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">n &gt;= 250</span></p>
+                  </td>
+                  <td style="padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">10 a 20</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Usando el primer procedimiento tenemos que:</span></p>
+                  <p><span style="font-size: 10.0pt;">Para&nbsp;nuestro&nbsp;ejemplo<strong>, K = ln 30/ ln 2 = 4.907</strong> que al redondear a enteros, quedar&iacute;a una K = 5.</span></p>
+                  <p><span style="font-size: 10.0pt;">Si usamos el segundo m&eacute;todo, podremos observar que n = 30 es menor que 50 y se nos recomienda, de acuerdo a la tabla, que tomemos de 5 a 7 clases, por lo tanto K = 5 es una buena asignaci&oacute;n.</span></p>
+                  <p><span style="font-size: 8.5pt;">&nbsp;</span></p>
+                  <ol start="3">
+                  <li><strong><span style="font-size: 10.0pt;"> C&aacute;lculo de la amplitud</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">La amplitud se calcula redondeando el cociente del rango entre el n&uacute;mero de clases(R/K)&nbsp;a la unidad m&aacute;s peque&ntilde;a (u) inmediata superior en que se encuentran los datos brutos. Como los datos de nuestro ejemplo est&aacute;n en enteros, la unidad m&aacute;s peque&ntilde;a es un entero&nbsp;u = 1, de tal manera que la amplitud ser&aacute;, <strong>R/K = 19/5 = 3.8</strong> que al redondearlo al entero inmediata superior, nos dar&aacute; la amplitud.</span></p>
+                  <p><span style="font-size: 10.0pt;">Amplitud:&nbsp;A = 4.</span></p>
+                  <p><span style="font-size: 10.0pt;">&nbsp;</span></p>
+                  <ol start="4">
+                  <li><strong><span style="font-size: 10.0pt;"> C&aacute;lculo de los l&iacute;mites de clase</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">Datos del problema.</span></p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Para construir los l&iacute;mites de clase (l&iacute;mite inferior&nbsp;Li&nbsp;y&nbsp;l&iacute;mite superior&nbsp;Ls) se coloca como l&iacute;mite inferior de la&nbsp;primera clase&nbsp;al valor m&aacute;s peque&ntilde;o de los datos brutos, 26 para nuestro ejemplo, y cuatro enteros&nbsp;<em>(la unidad m&aacute;s peque&ntilde;a es un entero) </em>m&aacute;s adelante, incluyendo el 26, tendremos el l&iacute;mite superior de la primera clase, 26 + 3 = 29&nbsp;<em>( se suma solo tres entero porque el 26 est&aacute; incluido)</em>.</span></p>
+                  <table style="border: outset 2.25pt;">
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 - 29</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Para calcular el l&iacute;mite inferior de la segunda clase,&nbsp;hay que&nbsp;agregarle un entero al l&iacute;mite superior de la primera clase, esto es 29 + 1 = 30. El l&iacute;mite superior es 4 enteros adelante, incluyendo al 30, esto es 29 + 4 = 33. Este proceso se repite iterativamente hasta completar la clase n&uacute;mero 5.</span></p>
+                  <table style="border: outset 3.0pt;">
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 - 29</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <ol start="5">
+                  <li><span style="font-size: 10.0pt;"> <strong>C&aacute;lculo de los l&iacute;mites reales de clase</strong></span></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">En seguida se calculan los l&iacute;mites reales de clase, llamados tambi&eacute;n fronteras de clase. Estos se calculan a partir de los l&iacute;mites de clase, rest&aacute;ndole media unidad (u/2) a los l&iacute;mites inferiores de clase y sum&aacute;ndole la misma cantidad a los l&iacute;mites superiores. u/2 = 1/2 = 0.5</span></p>
+                  <table style="width: 130.95pt; border: outset 4.5pt;" width="175">
+                  <tbody>
+                  <tr style="height: 13.8pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 14.5pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.5pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.5pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26&nbsp;- 29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.5pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5&nbsp;- 29.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 13.8pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 - 33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 13.8pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 14.5pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.5pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.5pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 -&nbsp;41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.5pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 -&nbsp;41.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 13.8pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.8pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <ol start="6">
+                  <li><strong><span style="font-size: 10.0pt;"> Encontrando la marca de clase o punto medio</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">Para calcular la&nbsp;marca&nbsp;de clase o&nbsp;punto medio&nbsp;vamos a promediar, para cada clase, el l&iacute;mite inferior y superior de clase o en su defecto los l&iacute;mites reales. Para la clase uno, X<sub>1</sub>&nbsp;= (26 + 29)/2 = (25.5 + 29.5)/2 = 27.5&nbsp;Para las&nbsp;siguientes clases se procede de la misma forma o simplemente se le suma la amplitud a la marca de clase anterior, por ejemplo, X<sub>2</sub>&nbsp;= X<sub>1</sub>&nbsp;+ 4 = 27.5 + 4 = 31.5, y as&iacute; para el resto de las clases.</span></p>
+                  <p><span style="font-size: 8.5pt;">&nbsp;</span></p>
+                  <table style="width: 135.3pt; border: outset 4.5pt;" width="180">
+                  <tbody>
+                  <tr style="height: 12.55pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">X<sub>i</sub></span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 13.2pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.2pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.2pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 -29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.2pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5 - 29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 13.2pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">27.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 12.55pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 17.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 17.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 - 41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 12.55pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 12.55pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">43.5</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <ol start="7">
+                  <li><strong><span style="font-size: 10.0pt;"> Conteo y Frecuencia Absoluta</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">El conteo es la asignaci&oacute;n de cada dato en la clase que le corresponde. La frecuencia absoluta es el n&uacute;mero de datos que se encuentran ubicados en cada clase. </span><span style="font-size: 10.0pt;">Para nuestro ejemplo, tenemos:</span></p>
+                  <p><span style="font-size: 10.0pt;">Datos brutos</span></p>
+                  <table>
+                  <tbody>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">32</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">40</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  </tr>
+                  <tr>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">30</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">41</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">39</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">38</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">33</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">35</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">31</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">36</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">37</span></strong></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt;">
+                  <p><strong><span style="font-size: 10.0pt; color: windowtext;">32</span></strong></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong><span style="font-size: 10.0pt;">Tabla de frecuencias absolutas</span></strong></p>
+                  <table style="width: 190.35pt; border: outset 6.0pt;" width="254">
+                  <tbody>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">X<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">f<sub>i</sub></span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.25pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 -29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5 - 29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">27.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">11</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.25pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 - 41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">43.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <ol start="8">
+                  <li><strong><span style="font-size: 10.0pt;"> Frecuencia Relativa</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">La frecuencia relativa es la proporci&oacute;n de los datos que se encuentran en cada clase. Se calcula dividiendo la frecuencia absoluta entre el total de los datos y se puede expresar como una fracci&oacute;n o en forma de porcentaje.</span></p>
+                  <table style="width: 245.45pt; border: outset 6.0pt;" width="327">
+                  <tbody>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">X<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">f<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">h<sub>i</sub></span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.25pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 -29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5 - 29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">27.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4/30, 13.33%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">11</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">11/30, 36.67%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6/30, 20.00%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.25pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 - 41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.25pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7/30, 23.33%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">43.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2/30, 6.67%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.4pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.4pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><strong><span style="font-size: 10.0pt;">&nbsp;</span></strong></p>
+                  <ol start="9">
+                  <li><strong><span style="font-size: 10.0pt;"> Frecuencias Absolutas y Relativas Acumuladas</span></strong></li>
+                  </ol>
+                  <p><span style="font-size: 10.0pt;">Para agregar a la tabla de distribuci&oacute;n de frecuencias las frecuencias acumuladas, tanto absolutas como relativas, hay que generar la&nbsp;<em>columna menor que</em>&nbsp;(&lt;). Dicha columna est&aacute; formada por&nbsp;todos los&nbsp;l&iacute;mites reales de clase y quedar&iacute;a de la siguiente manera:</span></p>
+                  <table style="width: 252.45pt; border: outset 6.0pt;" width="337">
+                  <tbody>
+                  <tr style="height: 20.1pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&lt;</span><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 21.15pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">X<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">f<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">h<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 20.1pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 -29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5 - 29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">27.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">13.33%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 20.1pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">11</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36.67%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 21.15pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">20.00%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 20.1pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 - 41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">23.33%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 20.1pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 21.15pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">43.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6.67%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 21.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45.5</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Para generar la frecuencia absoluta acumulada nos debemos de preguntar &iquest;cu&aacute;ntos datos son menores que los limites reales?. Por ejemplo: &iquest;Cu&aacute;ntos datos son menores que 25.5? La respuesta es ninguno, ya que todos son mayores que esa cantidad. &iquest;Cu&aacute;ntos datos son menores que 29.5? La respuesta es 4. A la pregunta, &iquest;cu&aacute;ntos datos son menores que 33.5? La respuesta es 4 + 11 = 15, y as&iacute; sucesivamente hasta terminar con la columna menor que.</span></p>
+                  <table style="width: 253.85pt; border: outset 6.0pt;" width="338">
+                  <tbody>
+                  <tr style="height: 14.65pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&lt;</span><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">F<sub>i</sub></span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.45pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">X<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">f<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">h<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">0</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 14.65pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 -29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5 - 29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">27.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">13.33%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 14.65pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">11</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36.67%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">15</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.45pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">20.00%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">21</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 14.65pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 - 41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">23.33%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 14.65pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 15.45pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">43.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6.67%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 15.45pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p><span style="font-size: 10.0pt;">Para generar la frecuencia relativa acumulada nos debemos de preguntar &iquest;qu&eacute; porcentaje de los datos son menores que los limites reales?. Por ejemplo: &iquest;Qu&eacute; porcentaje de los datos son menores que 25.5? La respuesta es ninguno, ya que todos son mayores que esa cantidad. &iquest;Qu&eacute; porcentaje de los datos son menores que 29.5? La respuesta es 13.33%. A la pregunta, &iquest;qu&eacute; porcentaje de los datos son menores que 33.5? La respuesta es 13.33 + 36.67 = 50%, y as&iacute; sucesivamente hasta terminar con la columna menor que.</span></p>
+                  <table style="width: 304.0pt; border: outset 6.0pt;" width="405">
+                  <tbody>
+                  <tr style="height: 16.3pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">&lt;</span><span style="font-size: 8.5pt; color: windowtext;">&nbsp;</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">F<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">H<sub>i</sub></span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 17.15pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Clases</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Li - Ls</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">Lri - Lrs</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">X<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">f<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">h<sub>i</sub></span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">0</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">0%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.3pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">1</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">26 -29</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">25.5 - 29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">27.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">13.33%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">13.33%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.3pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30 -33</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">29.5 - 33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">31.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">11</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">36.67%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">15</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">50.00%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 17.15pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">3</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">34 - 37</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">33.5 - 37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">35.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">20.00%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">21</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">70.00%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 16.3pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">4</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">38 - 41</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">37.5 - 41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">39.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">7</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">23.33%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">28</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 16.3pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">93.33%</span></p>
+                  </td>
+                  </tr>
+                  <tr style="height: 17.15pt;">
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">42 - 45</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">41.5 - 45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">43.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">2</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">6.67%</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">45.5</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">30</span></p>
+                  </td>
+                  <td style="border: none; padding: .75pt .75pt .75pt .75pt; height: 17.15pt;">
+                  <p><span style="font-size: 10.0pt; color: windowtext;">100%</span></p>
+                  </td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <p>&nbsp;</p>
+                  <p><span style="font-size: 8.5pt;"><img src="https://unapecangeltorresrgdiag.blob.core.windows.net/estatestblob/tabladistrio.png" alt="" width="456" height="414" /><br /><br /></span></p>
+                </div>
+              </div>
+            </div>
+
+          <!--</div>-->
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; RReynoso 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+
+  <!-- Page level custom scripts -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

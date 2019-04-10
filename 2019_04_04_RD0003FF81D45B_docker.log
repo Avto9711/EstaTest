@@ -1,0 +1,32 @@
+2019-04-04 15:20:28.049 INFO  - Starting container for site
+2019-04-04 15:20:28.049 INFO  - docker run -d -p 12803:8080 --name apordomrdws_0 -e WEBSITE_SITE_NAME=apordomrdws -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=57008eb873c7365c6ef907311d1d26e719d2d304effbc14458cd2f45247bca14 appsvc/php:5.6.40-apache_1903071319  
+
+2019-04-04 15:20:28.049 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-04-04 15:20:33.406 INFO  - Container apordomrdws_0 for site apordomrdws initialized successfully and is ready to serve requests.
+2019-04-04 16:12:27.813 INFO  - Starting container for site
+2019-04-04 16:12:27.818 INFO  - docker run -d -p 59281:8080 --name apordomrdws_0 -e WEBSITE_SITE_NAME=apordomrdws -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=57008eb873c7365c6ef907311d1d26e719d2d304effbc14458cd2f45247bca14 appsvc/php:5.6.40-apache_1903071319  
+
+2019-04-04 16:12:27.819 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-04-04 16:13:16.654 INFO  - Container apordomrdws_0 for site apordomrdws initialized successfully and is ready to serve requests.
+2019-04-04 17:07:17.067 INFO  - Starting container for site
+2019-04-04 17:07:17.068 INFO  - docker run -d -p 40180:8080 --name apordomrdws_1 -e WEBSITE_SITE_NAME=apordomrdws -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=57008eb873c7365c6ef907311d1d26e719d2d304effbc14458cd2f45247bca14 appsvc/php:5.6.40-apache_1903071319  
+
+2019-04-04 17:07:17.069 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-04-04 17:07:31.010 INFO  - Container apordomrdws_1 for site apordomrdws initialized successfully and is ready to serve requests.
+2019-04-04 17:12:32.202 ERROR - Container for apordomrdws_1 site apordomrdws is unhealthy, Stopping site.
+2019-04-04 17:12:34.607 INFO  - Starting container for site
+2019-04-04 17:12:34.607 INFO  - docker run -d -p 17246:8080 --name apordomrdws_0 -e WEBSITE_SITE_NAME=apordomrdws -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=57008eb873c7365c6ef907311d1d26e719d2d304effbc14458cd2f45247bca14 appsvc/php:5.6.40-apache_1903071319  
+
+2019-04-04 17:12:34.608 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-04-04 17:12:47.656 INFO  - Container apordomrdws_0 for site apordomrdws initialized successfully and is ready to serve requests.
+2019-04-04 17:17:51.936 ERROR - Container for apordomrdws_0 site apordomrdws is unhealthy, Stopping site.
+2019-04-04 17:17:56.047 INFO  - Starting container for site
+2019-04-04 17:17:56.049 INFO  - docker run -d -p 11463:8080 --name apordomrdws_0 -e WEBSITE_SITE_NAME=apordomrdws -e WEBSITE_AUTH_ENABLED=False -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_INSTANCE_ID=57008eb873c7365c6ef907311d1d26e719d2d304effbc14458cd2f45247bca14 appsvc/php:5.6.40-apache_1903071319  
+
+2019-04-04 17:17:56.049 INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2019-04-04 17:18:13.418 INFO  - Container apordomrdws_0 for site apordomrdws initialized successfully and is ready to serve requests.
